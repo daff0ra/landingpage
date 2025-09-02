@@ -55,38 +55,33 @@ website, serta pengembangan AI dan analisis data.
 
       {/* Skills */}
       <section className="max-w-6xl mx-auto px-6 mb-24">
-        <h2 className="text-3xl font-bold text-center mb-12">Keahlian</h2>
-        <div className="grid md:grid-cols-3 gap-8">
-        <div className="grid md:grid-cols-3 gap-8">
-            {/* Web Development */}
-            <div className="p-6 bg-white/10 rounded-2xl shadow-lg hover:scale-105 transition text-center">
-              <FaCode className="text-4xl mb-4 text-yellow-300 mx-auto" />
-              <h3 className="text-xl font-semibold">Web Development</h3>
-              <p className="mt-2 text-sm opacity-80">
-                WEB DEVELOPMENT
-              </p>
-            </div>
+  <h2 className="text-3xl font-bold text-center mb-12">Keahlian</h2>
+  
+  {/* Hapus grid ganda, cukup sekali */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    {/* Web Development */}
+    <div className="p-6 bg-white/10 rounded-2xl shadow-lg hover:scale-105 transition text-center">
+      <FaCode className="text-4xl mb-4 text-yellow-300 mx-auto" />
+      <h3 className="text-xl font-semibold">Web Development</h3>
+      <p className="mt-2 text-sm opacity-80">WEB DEVELOPMENT</p>
+    </div>
 
-            {/* AI & Machine Learning */}
-            <div className="p-6 bg-white/10 rounded-2xl shadow-lg hover:scale-105 transition text-center">
-              <FaBrain className="text-4xl mb-4 text-green-300 mx-auto" />
-              <h3 className="text-xl font-semibold">AI & Machine Learning</h3>
-              <p className="mt-2 text-sm opacity-80">
-                AI & MACHINE LEARNING ENGINEER
-              </p>
-            </div>
+    {/* AI & Machine Learning */}
+    <div className="p-6 bg-white/10 rounded-2xl shadow-lg hover:scale-105 transition text-center">
+      <FaBrain className="text-4xl mb-4 text-green-300 mx-auto" />
+      <h3 className="text-xl font-semibold">AI & Machine Learning</h3>
+      <p className="mt-2 text-sm opacity-80">AI & MACHINE LEARNING ENGINEER</p>
+    </div>
 
-            {/* Data Science */}
-            <div className="p-6 bg-white/10 rounded-2xl shadow-lg hover:scale-105 transition text-center">
-              <FaChartBar className="text-4xl mb-4 text-cyan-400 mx-auto" />
-              <h3 className="text-xl font-semibold">Data Science</h3>
-              <p className="mt-2 text-sm opacity-80">
-                SAINS DATA
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    {/* Data Science */}
+    <div className="p-6 bg-white/10 rounded-2xl shadow-lg hover:scale-105 transition text-center">
+      <FaChartBar className="text-4xl mb-4 text-cyan-400 mx-auto" />
+      <h3 className="text-xl font-semibold">Data Science</h3>
+      <p className="mt-2 text-sm opacity-80">SAINS DATA</p>
+    </div>
+  </div>
+</section>
+
 
       {/* Projects */}
       <section className="max-w-6xl mx-auto px-6 mb-24">
