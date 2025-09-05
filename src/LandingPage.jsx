@@ -3,13 +3,18 @@ import
 {
   FaCode, FaBrain, FaChartBar,FaUserAlt,FaGithub,FaLinkedin,FaEnvelope,
 } from "react-icons/fa";
+import Navbar from "./Navbar"; // ✅ Import Navbar
+
 
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-700 via-purple-700 to-pink-600 text-white">
       {/* Hero Section */}
+
+      <Navbar /> {/* ✅ Navbar dipasang di sini */}
+
       <section className="flex flex-col items-center justify-center text-center px-6 pt-20 pb-32">
-        <div className="w-32 h-32 rounded-full bg-white/20 flex items-center justify-center text-4xl shadow-lg mb-6">
+        <div className="w-32 h-32 rounded-full bg-white/20 flex items-center justify-center text-4xl mt-15 shadow-lg mb-6">
           <FaUserAlt />
         </div>
         <h1 className="text-5xl font-extrabold drop-shadow-lg mb-4">
