@@ -1,6 +1,6 @@
 import React from "react";
 
-const aboutPage = () => {
+const AboutPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-700 via-purple-700 to-pink-600 text-white flex items-center justify-center px-6">
       <div className="max-w-4xl bg-white/10 rounded-3xl shadow-xl p-10 text-center">
@@ -22,4 +22,4 @@ const aboutPage = () => {
   );
 };
 
-export default aboutPage;
+export default AboutPage;
